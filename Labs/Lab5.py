@@ -12,6 +12,6 @@ while userInput != numb :
         print("The number is lower. Please enter a new number:")
         userInput = int(input())
     else:
-        print("good guess:")
+        print("")
 
 print("You have guess the righ number: " + str(int(numb))+ " congratulation!!")
