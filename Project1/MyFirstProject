@@ -1,5 +1,5 @@
 #This is a python code of a Rock, Paper, Scissors game.
-while True:
+while True: # This will help repeat the game 
      print("Welcome to the Rock. Paper, Scissors game:")
      print("\nTwo players A and B will be playing the game: ")
      print("\nPlayer A please make your choice: rock, paper, or scissors:")
