@@ -1,1 +1,36 @@
-I will be creating a game of ROCK, PAPER, SCISSOR.
+#This is a python code of a Rock, Paper, Scissors game.
+while True:
+     print("Welcome to the Rock. Paper, Scissors game:")
+     print("\nTwo players A and B will be playing the game: ")
+     print("\nPlayer A please make your choice: rock, paper, or scissors:")
+     playerA = input()
+     print("\nPlayer B now make your move: rock, paper, scissors:")
+     playerB = input()
+     print(f"\nplayer A chose {playerA}, and player B chose {playerB}.\n")
+
+     if playerA == playerB:
+        print(f" {playerA} vs {playerB}. it's a tie")
+     elif playerA == "rock":
+         if playerB == "scissors":
+             print("Rock smashes scissors: Player A is the winner!")
+         else:
+             print("Paper covers rock: Player B is the winner!")
+     elif playerA == "paper":
+    
+         if playerB == "rock":
+             print("Paper covers rock: Player A is the winner!")
+         else:
+             print("Scissors cuts paper: Player B is the winner!")
+     elif playerA == "scissors":
+         if playerB == "rock":
+             print("Rock smashes scissors: player B is the winner!")
+         else:
+             print("Sicssors cut paper: player A is the winner!")
+        
+
+     play_again = input("\nPlay again? (y/n): ")
+     if play_again.lower() != "y":
+        break
+     print("-------------------------------------------------------")
+     
+
