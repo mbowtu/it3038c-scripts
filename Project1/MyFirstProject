@@ -26,10 +26,10 @@ while True:
              print("Rock smashes scissors: player B is the winner!")
          else:
              print("Sicssors cut paper: player A is the winner!")
-        
-
-     play_again = input("\nPlay again? (y/n): ")
-     if play_again.lower() != "y":
+       
+     # This is an opion to play again: if "y" the  gain will restart, if "n" the game will stop
+     playAgain = input("\nPlay again? (y/n): ")
+     if playAgain.lower() != "y":
         break
      print("-------------------------------------------------------")
      
