@@ -27,7 +27,7 @@ while True: # This will help repeat the game
          else:
              print("Sicssors cut paper: player A is the winner!")
        
-     # This is an opion to play again: if "y" the  gain will restart, if "n" the game will stop
+     # let's make an opion to play again: if "y" the  gain will restart, if "n" the game will stop
      playAgain = input("\nPlay again? (y/n): ")
      if playAgain.lower() != "y":
         break
