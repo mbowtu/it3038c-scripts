@@ -4,7 +4,7 @@ while True:
      print("\nTwo players A and B will be playing the game: ")
      print("\nPlayer A please make your choice: rock, paper, or scissors:")
      playerA = input()
-     print("\nPlayer B now make your move: rock, paper, scissors:")
+     print("\nPlayer B now make your move: rock, paper,or scissors:")
      playerB = input()
      print(f"\nplayer A chose {playerA}, and player B chose {playerB}.\n")
 
