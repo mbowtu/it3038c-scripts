@@ -1,4 +1,11 @@
 # This is a python code of a Rock, Paper, Scissors game.
+# To run the programm, just copy the game in a python interpreter 
+# I recommand using IDLE python. it's easy: Open IDLE, you have two options:
+# You can paste the code and click enter to run it. This will run the code only one time. 
+# or create a file, look one the top left of the windows, click on file then new file.
+# Paste the code on the new opern window and click run on the top of the window.
+# You'll have to save the file first in order to run it. 
+
 while True: # run the game in a loop
      print("Welcome to the Rock. Paper, Scissors game:")
      print("\nTwo players A and B will be playing the game: ")
