@@ -15,7 +15,7 @@ http.createServer((req, res) => {
     myHostName=os.hostname();
     TotalMem = os.totalmem();
     FreeMem = os.freemem();
-    numCpus = os.cpus().length
+    numCpus = os.cpus().length;
 
     // Server Uptime
     var utSec = os.uptime();
