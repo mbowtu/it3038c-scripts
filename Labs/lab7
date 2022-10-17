@@ -1,31 +1,28 @@
-from PIL import Image
 #Open image using Image module
-#image should be in the same directory as the python script file being run 
-im = Image.open("name of the image.jpg")
+#Image should be in the same directory as the python script file being run 
 
-#Show actual Image
-im.show()
+from PIL import Image
+img = Image.open("name of the image.jpg") #initiat
+
+#Show the Image
+img.show()
 
 #Show rotated Image
-im = im.rotate(45)
-im.show()
-#Save image
-im.save('newName.png')
+img = image.rotate(45)
+img.show()
+img.save('newName.png') #Save image
 
 #flips the image vertically
-im.transpose(Image.FLIP_TOP_BOTTOM)
+img.transpose(Image.FLIP_TOP_BOTTOM)
 
 # flips image horizontally
-im.transpose(Image.FLIP_LEFT_RIGHT)
+img.transpose(Image.FLIP_LEFT_RIGHT)
 
 #creating thumbnails
-im.thumbnail((200, 200))
-#to resize image
-im = im.resize((426, 240))
+img.thumbnail((200, 200))
 
 #change color to gray
-gray_im = im.convert('L')
-gray_im.show()
+gray_img = img.convert('L')
+gray_img.show()
 
-#To use Filter,
-from PIL import Image, ImageFilter
+
