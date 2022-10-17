@@ -2,7 +2,7 @@
 #Image should be in the same directory as the python script file being run 
 
 from PIL import Image
-img = Image.open("name of the image.jpg") #initiat
+img = Image.open('name of the image.png') #initiat
 
 #Show the Image
 img.show()
