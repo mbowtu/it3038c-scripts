@@ -44,7 +44,7 @@ please enter the math operation you would like to perform:
  
 def again():
     cal_again = input("""
-Do you want to calculate again?
+Do you have another calculation to do?
 Please type Y for YES or N for NO.
 """)
 
