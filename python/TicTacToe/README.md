@@ -9,7 +9,7 @@ install pygame in python: pip install pygame
 
 **first go to tools and download the field, X and O png file. Make sure to save them in the same directory.
 ** download and open the TicTacToe.py file
-* locate class TicTacToe and replace 'TicTacToe/field.png' 'TicTacToe/o.png' and 'TicTacToe/x.png' by there specific location.
+* locate class TicTacToe and replace 'C:\Python310/field.png' 'C:\Python310/o.png' and 'C:\Python310/x.png' by there specific location.
 
 * save the file and start the game.
   
