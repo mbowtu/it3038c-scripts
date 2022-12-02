@@ -79,7 +79,7 @@ class TicTacToe:
         if self.winner:
             pg.display.set_caption(f'Player "{self.winner}" wins! Press Space to Restart')
         elif self.game_steps == 9:
-            pg.display.set_caption(f'Game Over! Press Space to Restart')
+            pg.display.set_caption(f'Game Over: draw! Press Space to Restart')
 
     def run(self):
         self.print_caption()
