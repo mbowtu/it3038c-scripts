@@ -14,5 +14,5 @@ install pygame in python: pip install pygame
 * To restart the game click on space.
 
 
-################ Author: Coder Space, "Let's code Tic Tac Toe Game. Python Pygame Tutorial" https://youtu.be/q_Nzuyvf3tw ################
+################ Author: Coder Space, "Let's code Tic Tac Toe Game. Python Pygame Tutorial" https://youtu.be/q_Nzuyvf3tw ############################
 ################ Source code: https://github.com/watsojar/tictactoe. #############################
